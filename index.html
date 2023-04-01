@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> CALCULATOR</li>
+            
+            
+        </ul>
+    </nav>
+    <section id="main">
+    <div>
+        <input type="text"  placeholder="Input" id="input">
+        <br>
+        <input type="text" name="" placeholder="Result" id="result">
+    </div>   
+    <div>
+        <div>
+            <input type="button" value="(" onclick="getinput(value)" class ="btn operator">
+            <input type="button" value=")" onclick="getinput(value)"class ="btn operator" >
+            <input type="button" value="%" onclick="getinput(value)"class ="btn operator">
+            <input type="button" value="Del" onclick="deleteinput()"class ="btn" id="delete">
+            
+        </div>
+      
+        <div>
+            <input type="button" value="7" onclick="getinput(value)"class ="btn">
+            <input type="button" value="8" onclick="getinput(value)"class ="btn">
+            <input type="button" value="9" onclick="getinput(value)"class ="btn">
+            <input type="button" value="/" onclick="getinput(value)"class ="btn operator">
+            
+        </div>
+      
+        <div>
+            <input type="button" value="4" onclick="getinput(value)" class="btn">
+            <input type="button" value="5" onclick="getinput(value)" class="btn">
+            <input type="button" value="6" onclick="getinput(value)" class="btn">
+            <input type="button" value="*" onclick="getinput(value)" class="btn operator">
+            
+        </div>
+      
+        <div>
+            <input type="button" value="1" onclick="getinput(value)" class="btn">
+            <input type="button" value="2" onclick="getinput(value)" class="btn">
+            <input type="button" value="3" onclick="getinput(value)" class="btn">
+            <input type="button" value="-" onclick="getinput(value)" class="btn operator">
+            
+        </div>
+      
+        <div>
+            <input type="button" value="." onclick="getinput(value)"class="btn operator">
+            <input type="button" value="0" onclick="getinput(value)"class="btn">
+            <input type="button" value="Clear" onclick="clearinput()"class="btn" id="second">
+            <input type="button" value="+" onclick="getinput(value)"class="btn operator">
+            
+        </div>
+        <div>
+            <input type="button" value="=" onclick="getinput(value)" class="m1">
+        </div>
+      
+    </div> 
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

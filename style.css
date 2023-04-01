@@ -1,0 +1,97 @@
+nav{
+    background-color: #383838;
+    color: white;
+    border-radius: 50px;
+}
+ul{
+    display:flex;
+    justify-content: center;
+
+}
+li{
+    margin: 1rem 3rem;
+    list-style:square;
+    cursor: pointer;
+    font-size: larger;
+}
+li:hover{
+  color:#ffffff;
+}
+    section#main {
+        width: 100%;
+       margin-top: 10rem;
+        text-align: center;
+
+
+       
+    }
+
+.btn{
+    width:150px;
+    height: 35px;
+    margin: 2px;
+    background-color: rgb(221 217 221);
+    font-size: x-large;
+    border: 1px solid;
+    border-radius:50rem;
+}
+.btn:hover
+{
+    cursor: pointer;
+    background-color: rgb(225 225 233);
+    color: white;
+}
+.m1{
+    width:39.4rem;
+    background-color:#8b7f7f;
+    color:white;
+    font-size: larger;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    height: 40px
+}
+.m1:hover{
+    background-color: #9f3e3e;
+    cursor:pointer;
+    color:#a25050;
+}
+#input,#result{
+    width: 39rem;
+    height: 40px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    height: 1.8rem;
+    font-size: medium;
+    margin: 5px;
+}
+body{
+    background-image: url("top-view-calculator-notebook-frame.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#delete{
+    background-color:#d77777;
+}
+#delete:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid lime;
+}
+#second{
+    background-color: #ca9898;
+}
+#second:hover{
+    background-color: white;
+    color:red;
+    border:1px solid red;
+    
+}
+.operator{
+    background-color: gray;
+    color:white;
+}
+.operator:hover{
+    background-color: rgb(77, 73, 73);
+}
